@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  upload_file_name: MyString
+  upload_content_type: MyString
+  upload_file_size: 1
+  upload_updated_at: 2014-10-14 21:50:48
+
+two:
+  upload_file_name: MyString
+  upload_content_type: MyString
+  upload_file_size: 1
+  upload_updated_at: 2014-10-14 21:50:48
