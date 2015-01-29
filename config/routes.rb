@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :uploads
+  resources :posts
+
+  get '/uploads/:post' => 'uploads#index', as: :uploads
+  post '/uploads/:post' => 'uploads#create', as: :upload
+  delete '/uploads/:post/:id' => 'uploads#destroy', as: :upload_destroy
   root :to => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
